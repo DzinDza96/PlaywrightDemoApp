@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.36.2-focal
+      image: mcr.microsoft.com/playwright:v1.37.1-focal
       env:
         USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
     steps:
